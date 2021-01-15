@@ -13,7 +13,7 @@ $values = array();
 $values['username'] = 'Ulrik';
 $values['password'] = 'Vander123';
 
-$template = file_get_contents("/workspace/text-demo.html");
+$template = file_get_contents("/vander-html.html");
 
 $parsedhtml = vander_code::parser($values, $template);
 
